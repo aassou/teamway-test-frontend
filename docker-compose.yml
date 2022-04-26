@@ -1,0 +1,18 @@
+version: "3"
+
+networks:
+  personality-test:
+    external: true
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "3000:3000"
+    networks:
+      - personality-test
+        # ipv4_address: 172.30.0.100
