@@ -51,7 +51,7 @@ const TestPage = () => {
                                             <>
                                                 <h1>Your personality test score is: {testScore}</h1>
                                                 <h2>So, what does this mean?!</h2>
-                                                <p>Look at the table above and you can match your personality with some famous people!</p>
+                                                <p>Look at the table bellow and you can match your personality with some famous people!</p>
                                                 <table>
                                                     <thead>
                                                         <tr>
