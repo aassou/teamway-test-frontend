@@ -34,10 +34,7 @@ const TestPage = () => {
 
     const renderHelper = (questions) => {
         if (questions) {
-            const answers = currentQuestion.answers; 
-
-            console.log(questionNumber+1 == questions.length)
-            console.log(testScore)
+            const answers = currentQuestion.answers;
 
             return (
                 <main>
