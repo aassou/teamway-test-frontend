@@ -1,7 +1,4 @@
-[![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
-
-
-# Factory Management: Frontend
+# Personality Test: Frontend
 
 This is a React project, designed to manage small industrial factories by consuming and providing data and business logic through the API.
 
